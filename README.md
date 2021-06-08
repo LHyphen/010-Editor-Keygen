@@ -20,19 +20,14 @@ You **DON'T NEED MSVCRT** to run this program
 ## How to assemble
 Here are the steps for Assembling
 
-1. Download [Flat Assembler](http://flatassembler.net/download.php)
+1. 下载 [Flat Assembler](http://flatassembler.net/download.php) 和 项目中的 main.asm
 
-   or
-   
-   If you are on Linux, you may use `sudo apt-get install fasm`
+2. 解压 Flat Assembler，确认 FASMW.INI 中的 Include 是否正确
 
-2. Assemble using the following command
+3. 无误的话使用 FASMW.EXE 打开 main.asm 并运行
 
-   `fasm main.asm`
+4. 如果报错第 91行 win32ax.inc 没找到的话重新检查 FASMW.INI 中的 Include 是否正确
 
-The current support is for Windows only.
-
-I'll be adding a linux executable soon
 
 ## Screenshot
 

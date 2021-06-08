@@ -20,7 +20,7 @@ You **DON'T NEED MSVCRT** to run this program
 ## How to assemble
 Here are the steps for Assembling
 
-1. 下载 [Flat Assembler](http://flatassembler.net/download.php) 和 项目中的 main.asm
+1. 下载 [Flat Assembler](http://flatassembler.net/download.php) 和本项目中的 main.asm
 
 2. 解压 Flat Assembler，确认 FASMW.INI 中的 Include 是否正确
 
